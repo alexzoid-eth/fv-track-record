@@ -2,6 +2,7 @@
 
 | Date | Specification | Language | Platform | Place | PDF |
 |------|---------|----------|----------|-------|-----|
+| Jan 2026 | predict.fun | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) |
 | Nov 2025 | Deriverse | Solana/RUST🦀 | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_11_deriverse_fv_report_cyfrin_alexzoid.pdf) |
 | Oct 2025 | Accountable | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_10_accountable_fv_report_cyfrin_alexzoid.pdf) |
 | Sept 2025 | l2-angstrom | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_09_sorella_l2_angstrom_fv_report_cyfrin_alexzoid.pdf) |
