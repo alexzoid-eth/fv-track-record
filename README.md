@@ -2,6 +2,7 @@
 
 | Date | Specification | Language | Platform | Place | PDF |
 |------|---------|----------|----------|-------|-----|
+| 2026 Feb | Parallel | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_02_parallel_fv_report_cyfrin_alexzoid.pdf) |
 | 2026 Jan | predict.fun | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Nov | Deriverse | Solana/RUST🦀 | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_11_deriverse_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Oct | Accountable | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_10_accountable_fv_report_cyfrin_alexzoid.pdf) |
