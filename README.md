@@ -4,7 +4,7 @@
 |------|---------|----------|----------|-------|-----|
 | 2026 Mar | [Morpho Blue](https://github.com/alexzoid-eth/morpho-blue-fv/tree/main/certora) | EVM/Solidity | - | - | [Report](./pdf/2026_03_morpho_blue_fv_report_alexzoid.pdf) |
 | 2026 Feb | Parallel | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_02_parallel_fv_report_cyfrin_alexzoid.pdf) |
-| 2026 Jan | predict.fun | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) ([docs.predict.fun](https://docs.predict.fun/developers/audits)) |
+| 2026 Jan | predict.fun | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Nov | Deriverse | Solana/RUST🦀 | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_11_deriverse_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Oct | Accountable | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_10_accountable_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Sept | l2-angstrom | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2025_09_sorella_l2_angstrom_fv_report_cyfrin_alexzoid.pdf) |
