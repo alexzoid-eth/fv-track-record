@@ -2,6 +2,7 @@
 
 | Date | Specification | Language | Platform | Place | PDF |
 |------|---------|----------|----------|-------|-----|
+| 2026 Jun | [Tenor](https://github.com/alexzoid-eth/tenor-contracts-fv/tree/main/certora) | EVM/Solidity | - | - | [Report](./pdf/2026_06_tenor_fv_report_alexzoid.pdf) |
 | 2026 Mar | [Morpho Blue](https://github.com/alexzoid-eth/morpho-blue-fv/tree/main/certora) | EVM/Solidity | - | - | [Report](./pdf/2026_03_morpho_blue_fv_report_alexzoid.pdf) |
 | 2026 Feb | Parallel | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_02_parallel_fv_report_cyfrin_alexzoid.pdf) |
 | 2026 Jan | predict.fun | EVM/Solidity | [Cyfrin](https://x.com/Cyfrin) | - | [Report](./pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) |
