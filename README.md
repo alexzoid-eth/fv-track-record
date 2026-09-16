@@ -6,7 +6,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get star
 
 ## Engagements
 
-20+ confirmed engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
+20+ formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
