@@ -4,7 +4,7 @@ Public Certora formal verification activity by [AlexZoid](https://x.com/alexzoid
 
 ## Engagements
 
-24 engagements since 2023
+24 engagements since 2023 · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
