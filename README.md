@@ -1,17 +1,19 @@
 # Formal Verification Track Record
 
-Public Certora formal verification activity by [AlexZoid](https://x.com/alexzoid).
+Public Certora formal verification activity by [AlexZoid](https://x.com/alexzoid), an independent formal verification engineer.
+
+DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get started · [Profile](https://github.com/alexzoid-eth)
 
 ## Engagements
 
-24 engagements since 2023 · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
+20+ confirmed engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
 | 2026 Jun | [Tenor](https://github.com/tenor-labs/tenor-contracts/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) [💬](#hl-2026-07-tenor) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_06_tenor_fv_report_alexzoid.pdf) |
-| 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | EVM | - | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
+| 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
 | 2026 Apr | Vault aggregator | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](#hl-2026-07-cyfrin-vault-aggregator) | - |
-| 2026 Mar | [Morpho Blue](https://github.com/alexzoid-eth/morpho-blue-fv/tree/main/certora) | EVM | - | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_03_morpho_blue_fv_report_alexzoid.pdf) |
+| 2026 Mar | [Morpho Blue](https://github.com/alexzoid-eth/morpho-blue-fv/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_03_morpho_blue_fv_report_alexzoid.pdf) |
 | 2026 Feb | Parallel | EVM | [Cyfrin](https://x.com/Cyfrin) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_02_parallel_fv_report_cyfrin_alexzoid.pdf) |
 | 2026 Jan | predict.fun | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](#hl-2026-02-predictdotfun) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Nov | Deriverse | Solana | [Cyfrin](https://x.com/Cyfrin) [💬](#hl-2025-12-cyfrin-solana-dex) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_11_deriverse_fv_report_cyfrin_alexzoid.pdf) |
@@ -91,7 +93,7 @@ Public Certora formal verification activity by [AlexZoid](https://x.com/alexzoid
 
 ---
 
-<a name="hl-2025-08-valid-state-crit"></a>[2025 Aug](https://x.com/alexzoid/status/1960987430426747273) · My FV property caught a Critical missed by manual review
+<a name="hl-2025-08-valid-state-crit"></a>[2025 Aug](https://x.com/alexzoid/status/1960987430426747273) · My FV property caught a Critical bug missed by manual review
 
 <a href="https://x.com/alexzoid/status/1960987430426747273"><img src="assets/2025-08-28-alexzoid-valid-state-crit.png" width="480" alt="AlexZoid FV (@alexzoid): Thanks for the kind words! It was an absolute pleasure wizarding @certora Formal Verification with you @cyfrin folks! Quoting Dacian (@DevDacian): this was in a recent Cyfrin private audit, great stuff @alexzoid! Original post by @alexzoid: In a past private engagement with auditors, my @certora Formal Verification valid state property caught a CRIT in the assembly of a complex lending protocol, missed by manual reviews. Clear proof of FV's value in complementing fuzzing and classic audits."></a>
 
