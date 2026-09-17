@@ -1,12 +1,10 @@
-# Formal Verification Track Record
+# AlexZoid · Formal Verification Track Record
 
-Public Certora formal verification activity by [AlexZoid](https://x.com/alexzoid), an independent formal verification engineer.
-
-DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get started · [Profile](https://github.com/alexzoid-eth)
+DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
 ## Engagements
 
-20+ formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
+25 formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
@@ -24,6 +22,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get star
 | 2025 Jun | [Aquarius](https://github.com/alexzoid-eth/aquarius-cantina-fv/tree/main/fees_collector/src/certora_specs) | Stellar | 🥈#2 [Cantina x Certora](https://cantina.xyz/competitions/990ce947-05da-443e-b397-be38a65f0bff) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_06_aquarius_stellar_fv_report_cantina_alexzoid.pdf) |
 | 2025 Feb | [Blend v2](https://github.com/alexzoid-eth/2025-02-blend-fv/tree/main/blend-contracts-v2/backstop) | Stellar | 🏆#1 [Code4rena x Certora](https://code4rena.com/audits/2025-02-blend-v2-audit-certora-formal-verification) [💬](#hl-2025-07-blend-v2) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_02_blend_v2_backstop_fv_report_alexzoid.pdf) |
 | 2025 Jan | [Silo v2](https://github.com/alexzoid-eth/silo-v2-cantina-fv/tree/main/certora) | EVM | 🏅#5 [Cantina x Certora](https://cantina.xyz/competitions/18f1e37b-9ac2-4ba9-b32e-50344500c1a7) [💬](#hl-2025-06-silo-v2) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_01_silo_v2_fv_report_alexzoid.pdf) |
+| 2024 Dec | Perpetuals DEX | EVM | [Cyfrin](https://x.com/Cyfrin) | - |
 | 2024 Sep | [Uniswap v4](https://github.com/alexzoid-eth/uniswap-v4-periphery-cantina-fv/tree/main/certora) | EVM | 🥈#2 [Cantina x Certora](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659) [💬](#hl-2024-11-uniswap-v4) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2024_09_uniswap_v4_fv_report_cantina_alexzoid.pdf) |
 | 2024 Jun | [Euler v2](https://github.com/alexzoid-eth/euler-vault-cantina-fv/tree/master/certora) | EVM | 🥉#3 [Cantina x Certora](https://cantina.xyz/competitions/41306bb9-2bb8-4da6-95c3-66b85e11639f) [💬](#hl-2024-08-euler-v2) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2024_06_euler_fv_report_cantina_alexzoid.pdf) |
 | 2024 Mar | [Tokemak](https://github.com/alexzoid-eth/tokemak-v2-core-fv/tree/main/certora) | EVM | [Hats Finance x Certora](https://hatsfinance.medium.com/tokemak-audit-competition-rewards-up-to-18k-in-usdc-dcb565684b34) | [MD](https://github.com/Certora/tokemak-v2-core-fv/blob/main/Report.md#lastrebalancetimestamp-must-only-be-updated-to-blocktimestamp) |
