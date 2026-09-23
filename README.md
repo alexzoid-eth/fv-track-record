@@ -4,10 +4,11 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
 ## Engagements
 
-25 formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
+26 formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
+| 2026 Aug | Centrifuge | EVM | [Centrifuge](https://docs.centrifuge.io/developer/security/audits/) [💬](#hl-2026-09-centrifuge) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_08_centrifuge_core_fv_report_alexzoid.pdf) |
 | 2026 Jun | [Tenor](https://github.com/tenor-labs/tenor-contracts/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) [💬](#hl-2026-07-tenor) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_06_tenor_fv_report_alexzoid.pdf) |
 | 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
 | 2026 Apr | Vault aggregator | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](#hl-2026-07-cyfrin-vault-aggregator) | - |
@@ -35,6 +36,12 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 | 2023 May | [Aave StaticAToken](https://github.com/alexzoid-eth/static-a-token-v3/tree/certora-contest/certora) | EVM | [Certora](https://github.com/Certora/static-a-token-v3/tree/certora-contest) [💬](#hl-2023-07-aave-staticatoken) | - |
 
 ## Highlights
+
+<a name="hl-2026-09-centrifuge"></a>[2026 Sep](https://docs.centrifuge.io/developer/security/audits/) · Centrifuge lists my FV report among its audits
+
+<a href="https://docs.centrifuge.io/developer/security/audits/"><img src="assets/2026-09-12-centrifuge-audits-fv.png" width="695" alt="Centrifuge Docs, Developer Documentation, Security, Audits. Protocol audits table: LonelySloth, V3.1 - V3.3, Jan-Sep 2026, Bug bounty review; AlexZoid, Core, Aug 2026, Formal verification; Sherlock, V3.3, Aug 2026, Collaborative audit; BurraSec, Share manager, Aug 2026, Security review. Each row links its report."></a>
+
+---
 
 <a name="hl-2026-07-cyfrin-vault-aggregator"></a>[2026 Jul](https://x.com/DevDacian/status/2079513565409800668) · Vault aggregator FV with Cyfrin
 
@@ -70,7 +77,13 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
 <a name="hl-2025-10-cyfrin-sorella-angstrom"></a>[2025 Oct](https://x.com/DevDacian/status/1975501829225205966) · Sorella Angstrom FV with Cyfrin
 
-<a href="https://x.com/DevDacian/status/1975501829225205966"><img src="assets/2025-10-07-devdacian-sorella-angstrom.png" height="190" alt="Dacian (@DevDacian), Oct 7, 2025: Shout out @giovannidisiena @1_00_proof @alexzoid amazing work on this very tough audit for @SorellaLabs @angstromxyz finding: 1 High, 4 Med, 5 Low, 8 Info, 6 Gas. This was a very tough audit where the code was written by OG dev/auditor @real_philogy; felt like a huge victory requiring a lot of great teamwork to find the 1 High! Great to see more elite devs/auditors choosing @cyfrin to audit their own protocols!"></a> <a href="https://x.com/real_philogy/status/1971296804357734582"><img src="assets/2025-09-25-philogy-fv-suite.png" height="190" alt="philogy (@real_philogy), Sep 25, 2025: I'd rather pay for 1 good FV suite than 3 audits from top firms, the former gives me much better guarantees. EVM FV tooling is getting pretty good. I'm pleasantly surprised by what teams like @certora & @cyfrin can achieve in 2-4 weeks. Now we need to make it even more accessible and scalable."></a>
+<a href="https://x.com/DevDacian/status/1975501829225205966"><img src="assets/2025-10-07-devdacian-sorella-angstrom.png" width="480" alt="Dacian (@DevDacian), Oct 7, 2025: Shout out @giovannidisiena @1_00_proof @alexzoid amazing work on this very tough audit for @SorellaLabs @angstromxyz finding: 1 High, 4 Med, 5 Low, 8 Info, 6 Gas. This was a very tough audit where the code was written by OG dev/auditor @real_philogy; felt like a huge victory requiring a lot of great teamwork to find the 1 High! Great to see more elite devs/auditors choosing @cyfrin to audit their own protocols!"></a>
+
+---
+
+<a name="hl-2025-09-philogy-fv"></a>[2025 Sep](https://x.com/real_philogy/status/1971296804357734582) · OG dev champions FV after working with me
+
+<a href="https://x.com/real_philogy/status/1971296804357734582"><img src="assets/2025-09-25-philogy-fv-suite.png" width="480" alt="philogy (@real_philogy), Sep 25, 2025: I'd rather pay for 1 good FV suite than 3 audits from top firms, the former gives me much better guarantees. EVM FV tooling is getting pretty good. I'm pleasantly surprised by what teams like @certora & @cyfrin can achieve in 2-4 weeks. Now we need to make it even more accessible and scalable."></a>
 
 ---
 
