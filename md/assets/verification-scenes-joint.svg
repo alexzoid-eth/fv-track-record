@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 1276" width="1752" height="1276" role="img" aria-labelledby="t d">
+<title id="t">Joint verification scenes: several contracts compiled together</title>
+<desc id="d">Seven joint scenes drawn as cards, in the order the report presents them. A filled box is a contract the prover compiles and a dashed outline a CVL model written by hand. A box is drawn only for a contract the report names in Verification Scope; the other contracts and faces a scene carries (among them the GasService Gateway_LinkedMessageProcessor compiles for its gas reads) are in the scene and not in the picture. An arrow is drawn only for a call some rule of the scene reaches, and its label is the field the call goes through. A compiled neighbour indents what it reaches a rung further in, so a contract reached only through a compiled child appears at the third level: HubHandler_LinkedHubCore shows Hub reaching Accounting. A second line beginning with an arrow names another compiled contract of the card that the box reaches: Holdings and ShareClassManager reach HubRegistry on Hub_LinkedHubCore, and Hub reaches Holdings on HubHandler_LinkedHubCore. A compiled contract nothing in the scene reaches is not drawn: SpokeHandler_LinkedRegistryFactory also compiles an Escrow, but the escrow its factory deploys is left to the prover as an unresolved call. Gateway_LinkedMessageProcessor reaches its MessageProcessor for each message's length, pool and source network; the processing itself is cut at the per message step, so no handler is drawn behind it. A chip on a card's title row names a key the scene's setup pins: 1 for the one symbolic pool or share class its configurations pin, and a dark 2 beside it where the scene also runs a Multi configuration of its own on two pools, share classes, networks or asset rows; networks and asset rows are drawn only where a scene splits them. A configuration that pins fewer keys (Metadata, Unpinned, Custody, Census) is left to the scene's bounds, and a card without a chip pins no pool or share class in its setup.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 8" markerWidth="11" markerHeight="9" refX="9.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 4 L0 8 L2.7 4 Z" fill="#48505A"/></marker>
+<marker id="ahf" viewBox="0 0 10 8" markerWidth="11" markerHeight="9" refX="9.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 4 L0 8 L2.7 4 Z" fill="#8E8880"/></marker>
+</defs>
+<rect x="0" y="0" width="1752" height="1276" fill="#FBFAF7"/>
+<rect x="40" y="24" width="1672" height="1228" rx="20" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1.2"/>
+<rect x="58" y="48" width="15" height="15" rx="4" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="84.0" y="61" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#16202B" text-anchor="start" font-weight="700">Joint scenes</text>
+<g data-keys-legend="">
+<text x="1694" y="59" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#5A554E" text-anchor="end">and a separate configuration runs on two, for isolation rules</text>
+<rect x="1194.3" y="44" width="87.9" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="1203.3" y="58.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<rect x="1214.6" y="47" width="20" height="16" rx="8" fill="#1E2B38"/>
+<text x="1224.6" y="58.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">2</text>
+<text x="1240.6" y="58.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pools</text>
+<text x="1172.26" y="59" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#5A554E" text-anchor="end">the setup pins one symbolic pool (likewise share classes, networks, asset rows)</text>
+<rect x="584.7" y="44" width="56.6" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="593.7" y="58.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="606.0" y="58.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pool</text>
+<text x="574.68" y="58" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#5A554E" text-anchor="end" letter-spacing="1.2">KEYS</text>
+</g>
+<rect x="58" y="88" width="528" height="606.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="80" y="126" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">Hub_LinkedHubCore</text>
+<g data-keys="pool:1 class:1">
+<rect x="400.6" y="110" width="56.6" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="409.6" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="421.9" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pool</text>
+<rect x="463.2" y="110" width="100.8" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="472.2" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="484.5" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">share class</text>
+</g>
+<line x1="80" y1="137" x2="564" y2="137" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="80" y="146" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="322" y="173" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">Hub</text>
+<text x="322" y="189" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="126" y="224" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="141" y="247" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">HubRegistry</text>
+<text x="141" y="263" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="549" y="247" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">hubRegistry</text>
+<rect x="126" y="290" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="141" y="313" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Holdings</text>
+<text x="141" y="329" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="549" y="313" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">holdings</text>
+<text x="549" y="329" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">-&gt; hubRegistry</text>
+<rect x="126" y="356" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="141" y="379" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">ShareClassManager</text>
+<text x="141" y="395" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="549" y="379" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">shareClassManager</text>
+<text x="549" y="395" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">-&gt; hubRegistry</text>
+<rect x="126" y="422" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="141" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Accounting</text>
+<text x="141" y="461" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="549" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">accounting</text>
+<rect x="126" y="488" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="141" y="511" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">MultiAdapter</text>
+<text x="141" y="527" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="549" y="511" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">multiAdapter</text>
+<rect x="126" y="554" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="141" y="577" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">MessageDispatcher</text>
+<text x="141" y="593" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="549" y="577" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">sender</text>
+<rect x="126" y="620" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="141" y="643" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">Gateway</text>
+<text x="141" y="659" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="549" y="643" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">gateway</text>
+<line x1="100" y1="208" x2="100" y2="646" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="100" y1="250" x2="123" y2="250" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="100" y1="316" x2="123" y2="316" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="100" y1="382" x2="123" y2="382" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="100" y1="448" x2="123" y2="448" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="100" y1="514" x2="123" y2="514" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<line x1="100" y1="580" x2="123" y2="580" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<line x1="100" y1="646" x2="123" y2="646" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<rect x="612" y="88" width="528" height="540.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="634" y="126" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">HubHandler_LinkedHubCore</text>
+<g data-keys="pool:1 class:1">
+<rect x="954.6" y="110" width="56.6" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="963.6" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="975.9" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pool</text>
+<rect x="1017.2" y="110" width="100.8" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="1026.2" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="1038.5" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">share class</text>
+</g>
+<line x1="634" y1="137" x2="1118" y2="137" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="634" y="146" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="876" y="173" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">HubHandler</text>
+<text x="876" y="189" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="680" y="224" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="695" y="247" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Hub</text>
+<text x="695" y="263" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="247" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">hub</text>
+<text x="1103" y="263" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">-&gt; holdings</text>
+<rect x="726" y="290" width="392.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="741" y="313" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Accounting</text>
+<text x="741" y="329" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="313" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">accounting</text>
+<line x1="700" y1="276" x2="700" y2="316" stroke="#48505A" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="700" y1="316" x2="723" y2="316" stroke="#48505A" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="680" y="356" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="695" y="379" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">HubRegistry</text>
+<text x="695" y="395" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="379" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">hubRegistry</text>
+<rect x="680" y="422" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="695" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Holdings</text>
+<text x="695" y="461" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">holdings</text>
+<rect x="680" y="488" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="695" y="511" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">ShareClassManager</text>
+<text x="695" y="527" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="511" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">shareClassManager</text>
+<rect x="680" y="554" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="695" y="577" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">MessageDispatcher</text>
+<text x="695" y="593" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="1103" y="577" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">sender</text>
+<line x1="654" y1="208" x2="654" y2="580" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="654" y1="250" x2="677" y2="250" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="654" y1="382" x2="677" y2="382" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="654" y1="448" x2="677" y2="448" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="654" y1="514" x2="677" y2="514" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="654" y1="580" x2="677" y2="580" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<rect x="1166" y="88" width="528" height="474.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="1188" y="126" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">Spoke_LinkedSpokeCore</text>
+<g data-keys="pool:1+2 class:1">
+<rect x="1477.2" y="110" width="87.9" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="1486.2" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<rect x="1497.6" y="113" width="20" height="16" rx="8" fill="#1E2B38"/>
+<text x="1507.6" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">2</text>
+<text x="1523.6" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pools</text>
+<rect x="1571.2" y="110" width="100.8" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="1580.2" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="1592.5" y="124.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">share class</text>
+</g>
+<line x1="1188" y1="137" x2="1672" y2="137" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="1188" y="146" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="1430" y="173" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">Spoke</text>
+<text x="1430" y="189" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="1234" y="224" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="1249" y="247" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">SpokeRegistry</text>
+<text x="1249" y="263" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1657" y="247" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">spokeRegistry</text>
+<rect x="1234" y="290" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="1249" y="313" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">SnapshotQueue</text>
+<text x="1249" y="329" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1657" y="313" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">snapshotQueue</text>
+<rect x="1234" y="356" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="1249" y="379" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Escrow</text>
+<text x="1249" y="395" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1657" y="379" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">escrow(poolId)</text>
+<rect x="1234" y="422" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="1249" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">EscrowFactory</text>
+<text x="1249" y="461" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="1657" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">escrowProvider</text>
+<rect x="1234" y="488" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="1249" y="511" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">MessageDispatcher</text>
+<text x="1249" y="527" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="1657" y="511" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">sender</text>
+<line x1="1208" y1="208" x2="1208" y2="514" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="1208" y1="250" x2="1231" y2="250" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="1208" y1="316" x2="1231" y2="316" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="1208" y1="382" x2="1231" y2="382" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="1208" y1="448" x2="1231" y2="448" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<line x1="1208" y1="514" x2="1231" y2="514" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<rect x="58" y="720" width="528" height="276.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="80" y="758" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">SpokeHandler_LinkedSpokeRegistry</text>
+<g data-keys="pool:1 class:1">
+<rect x="400.6" y="742" width="56.6" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="409.6" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="421.9" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pool</text>
+<rect x="463.2" y="742" width="100.8" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="472.2" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="484.5" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">share class</text>
+</g>
+<line x1="80" y1="769" x2="564" y2="769" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="80" y="778" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="322" y="805" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">SpokeHandler</text>
+<text x="322" y="821" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="126" y="856" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="141" y="879" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">SpokeRegistry</text>
+<text x="141" y="895" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="549" y="879" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">spokeRegistry</text>
+<rect x="126" y="922" width="438.0" height="52" rx="12" fill="none" stroke="#9A948B" stroke-width="1.7" stroke-dasharray="6 5"/>
+<text x="141" y="945" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#6A655E" text-anchor="start">EscrowFactory</text>
+<text x="141" y="961" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#6A655E" text-anchor="start" letter-spacing="1.2">CVL MODEL</text>
+<text x="549" y="945" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#6A655E" text-anchor="end">escrowFactory</text>
+<line x1="100" y1="840" x2="100" y2="948" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="100" y1="882" x2="123" y2="882" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="100" y1="948" x2="123" y2="948" stroke="#8E8880" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ahf)"/>
+<rect x="612" y="720" width="528" height="276.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="634" y="758" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">SpokeHandler_LinkedRegistryFactory</text>
+<g data-keys="pool:1 class:1">
+<rect x="954.6" y="742" width="56.6" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="963.6" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="975.9" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">pool</text>
+<rect x="1017.2" y="742" width="100.8" height="22" rx="11" fill="#F5F1E9" stroke="#E7E0D0" stroke-width="1"/>
+<text x="1026.2" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#16202B" text-anchor="start" font-weight="700">1</text>
+<text x="1038.5" y="756.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="start">share class</text>
+</g>
+<line x1="634" y1="769" x2="1118" y2="769" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="634" y="778" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="876" y="805" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">SpokeHandler</text>
+<text x="876" y="821" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="680" y="856" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="695" y="879" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">SpokeRegistry</text>
+<text x="695" y="895" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="879" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">spokeRegistry</text>
+<rect x="680" y="922" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="695" y="945" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">EscrowFactory</text>
+<text x="695" y="961" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1103" y="945" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">escrowFactory</text>
+<line x1="654" y1="840" x2="654" y2="948" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="654" y1="882" x2="677" y2="882" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="654" y1="948" x2="677" y2="948" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="1166" y="720" width="528" height="210.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="1188" y="758" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">EscrowFactory</text>
+<line x1="1188" y1="769" x2="1672" y2="769" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="1188" y="778" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="1430" y="805" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">EscrowFactory</text>
+<text x="1430" y="821" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="1234" y="856" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="1249" y="879" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">Escrow</text>
+<text x="1249" y="895" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="1657" y="879" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">escrowLink</text>
+<line x1="1208" y1="840" x2="1208" y2="882" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="1208" y1="882" x2="1231" y2="882" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="58" y="1022" width="528" height="210.0" rx="18" fill="#FFFFFF" stroke="#E3DFD6" stroke-width="1.2"/>
+<text x="80" y="1060" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="14" fill="#16202B" text-anchor="start" font-weight="700">Gateway_LinkedMessageProcessor</text>
+<line x1="80" y1="1071" x2="564" y2="1071" stroke="#EBE6DC" stroke-width="1"/>
+<rect x="80" y="1080" width="484" height="60" rx="13" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2.8"/>
+<text x="322" y="1107" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="15" fill="#16202B" text-anchor="middle" font-weight="700">Gateway</text>
+<text x="322" y="1123" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="middle" letter-spacing="1.2">REAL BYTECODE · SUBJECT OF THE SCENE</text>
+<rect x="126" y="1158" width="438.0" height="52" rx="12" fill="#CFE0F1" stroke="#1E2B38" stroke-width="2"/>
+<text x="141" y="1181" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13.5" fill="#16202B" text-anchor="start" font-weight="700">MessageProcessor</text>
+<text x="141" y="1197" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="8.5" fill="#3C4753" text-anchor="start" letter-spacing="1.2">REAL BYTECODE</text>
+<text x="549" y="1181" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#3C4753" text-anchor="end">processor</text>
+<line x1="100" y1="1142" x2="100" y2="1184" stroke="#48505A" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="100" y1="1184" x2="123" y2="1184" stroke="#48505A" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+</svg>
