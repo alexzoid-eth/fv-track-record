@@ -8,7 +8,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
 | Date | Specification | Type | Chain | Engagement | Report |
 |------|---------|----------|----------|----------|-----|
-| 2026 Aug-Sep | Centrifuge (Core) | RWA | EVM | [Centrifuge](https://docs.centrifuge.io/developer/security/audits/) [💬](#hl-2026-09-centrifuge) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_09_centrifuge_core_fv_report_alexzoid.pdf) |
+| 2026 Aug-Sep | [Centrifuge (Core)](https://github.com/centrifuge/protocol-certora) | RWA | EVM | [Centrifuge](https://docs.centrifuge.io/developer/security/audits/) [💬](#hl-2026-09-centrifuge) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_09_centrifuge_core_fv_report_alexzoid.pdf) |
 | 2026 Jun | [Tenor](https://github.com/tenor-labs/tenor-contracts/tree/main/certora) | Lending | EVM | [Tenor](https://x.com/TenorFinance) [💬](#hl-2026-07-tenor) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_06_tenor_fv_report_alexzoid.pdf) |
 | 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | Lending | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
 | 2026 Apr | Vault aggregator | Yield aggregator | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](#hl-2026-07-cyfrin-vault-aggregator) | - |
