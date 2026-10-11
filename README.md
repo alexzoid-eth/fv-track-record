@@ -4,7 +4,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
 ## Engagements
 
-26 formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
+30+ formal verification engagements since 2023 · EVM, Stellar, Solana · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Type | Chain | Engagement | Report |
 |------|---------|----------|----------|----------|-----|
@@ -27,6 +27,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 | 2024 Sep | [Uniswap v4](https://github.com/alexzoid-eth/uniswap-v4-periphery-cantina-fv/tree/main/certora) | DEX | EVM | 🥈#2 [Cantina x Certora](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659) [💬](#hl-2024-11-uniswap-v4) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2024_09_uniswap_v4_fv_report_cantina_alexzoid.pdf) |
 | 2024 Jun | [Euler v2](https://github.com/alexzoid-eth/euler-vault-cantina-fv/tree/master/certora) | Lending | EVM | 🥉#3 [Cantina x Certora](https://cantina.xyz/competitions/41306bb9-2bb8-4da6-95c3-66b85e11639f) [💬](#hl-2024-08-euler-v2) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2024_06_euler_fv_report_cantina_alexzoid.pdf) |
 | 2024 Mar | [Tokemak](https://github.com/alexzoid-eth/tokemak-v2-core-fv/tree/main/certora) | Yield aggregator | EVM | [Hats Finance x Certora](https://hatsfinance.medium.com/tokemak-audit-competition-rewards-up-to-18k-in-usdc-dcb565684b34) | [MD](https://github.com/Certora/tokemak-v2-core-fv/blob/main/Report.md#lastrebalancetimestamp-must-only-be-updated-to-blocktimestamp) |
+| 2024 Mar | [StakeUp](https://github.com/stakeup-protocol/stakeup-contracts/tree/main/certora) | Liquid staking | EVM | Blueberry, with [neumoXX](https://x.com/neumoXX) | [MD](https://github.com/stakeup-protocol/stakeup-contracts/blob/main/certora/REPORT.md) |
 | 2024 Feb | [Ion Protocol](https://github.com/alexzoid-eth/2024-01-ion-certora/tree/master/certora) | Lending | EVM | [Hats Finance x Certora](https://hatsfinance.medium.com/ion-audit-competition-rewards-up-to-40k-in-usdc-28fd49712b9b) | - |
 | 2023 Nov | [Badger eBTC](https://github.com/alexzoid-eth/2023-10-badger-fv/tree/main/certora) | CDP | EVM | 🥈#2 [Code4rena x Certora](https://code4rena.com/audits/2023-10-badger-ebtc-audit-certora-formal-verification-competition) [💬](#hl-2024-01-badger-ebtc) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2023_11_badger_fv_report_code4rena_alexzoid.pdf) |
 | 2023 Oct | [Aave GHO Token](https://github.com/alexzoid-eth/gho-competition/tree/certora/competition/certora) | Stablecoin | EVM | 🏅[#7](https://docs.google.com/spreadsheets/d/1bOi5IYGPQTPQ9PzsqyJm81kaCkqFXC9qAcv1xtoB9_U/edit?gid=1970712821#gid=1970712821) [Certora](https://x.com/Certora/status/1704977200574054700) | [MD](https://github.com/Certora/gho-competition/blob/certora/competition/Report.md#ghoatokens-bucketlevel-must-be-change-when-calling-mint-and-burn) |
